@@ -1,2 +1,2 @@
 # ecommerce
-Aplicação Web de um ecommerce genérico desenvolvido puramente com php.
+Generic ecommerce web application developed with php.
