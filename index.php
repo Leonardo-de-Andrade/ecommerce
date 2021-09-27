@@ -8,11 +8,10 @@ $app->config('debug', true);
 
 $app->get('/', function() {
     
-	$sql = new Eco\DB\Sql();
+	$page = new Eco\Page();
 
-	$results = $sql->select("SELECT * FROM tb_users");
-	
-	echo json_encode($results);
+	$page->setTpl("index");
+
 });
 
 $app->run();
