@@ -16,14 +16,14 @@ class Page
         "data" => []
     ];
 
-    public function __construct($opts = array())
+    public function __construct($opts = array(), $tpl_dir = "/views/")
     {
 
         $this->options = array_merge($this->defaults, $opts);
 
         $config = array(
             "base_url"      => null,
-            "tpl_dir"       => $this->dir . "/views/",
+            "tpl_dir"       => $this->dir . $tpl_dir,
           //  "cache_dir"     => $this->dir . "/views-cache/",
             "debug"         => false
         );
