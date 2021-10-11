@@ -9,8 +9,8 @@ use \Eco\Mailer;
 class User extends Model {
 
 	const SESSION = "User";
-	const SECRET = "EcocodePhp7_Secret";
-	const SECRET_IV = "HcodePhp7_Secret_IV";
+	const SECRET = "EcoPhp7_Secret";
+	const SECRET_IV = "EcoPhp7_Secret_IV";
 	const ERROR = "UserError";
 	const ERROR_REGISTER = "UserErrorRegister";
 	const SUCCESS = "UserSucesss";
